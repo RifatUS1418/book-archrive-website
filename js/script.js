@@ -23,7 +23,7 @@ const searchResult = () => {
         .then(data => displayResult(data))
 }
 
-// load book 
+// load book result
 const displayResult = books => {
     if (books.docs.length === 0) {
         const resultFound = document.getElementById('result-found');
